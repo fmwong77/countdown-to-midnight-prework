@@ -13,7 +13,7 @@ end
 def countdown(number)
   i = 0
   while i < number do
-    sleep 2
+    sleep 1
     puts "#{number} SECOND(S)!"
     number -= 1
   end
