@@ -9,3 +9,14 @@ def countdown(number)
   
   return "HAPPY NEW YEAR!"
 end
+
+def countdown(number)
+  i = 0
+  while i < number do
+    sleep(1)
+    puts "#{number} SECOND(S)!"
+    number -= 1
+  end
+  
+  return "HAPPY NEW YEAR!"
+end
